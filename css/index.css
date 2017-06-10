@@ -78,19 +78,52 @@ body {
 }
 
 /* line 82, ../sass/index.scss */
+#navbar {
+  width: 100%;
+  background-color: white;
+  padding: 15px 0;
+}
+/* line 87, ../sass/index.scss */
+#navbar .left {
+  float: left;
+}
+/* line 91, ../sass/index.scss */
+#navbar .right {
+  float: right;
+}
+/* line 95, ../sass/index.scss */
+#navbar span {
+  margin: 0 15px;
+}
+/* line 97, ../sass/index.scss */
+#navbar span a {
+  margin: 0 5px;
+}
+/* line 102, ../sass/index.scss */
+#navbar a {
+  color: black;
+  text-decoration: none;
+}
+/* line 107, ../sass/index.scss */
+#navbar.fixed {
+  position: fixed;
+  top: 0;
+}
+
+/* line 113, ../sass/index.scss */
 .global {
   max-width: 984px;
   margin: 50px auto;
 }
 
-/* line 87, ../sass/index.scss */
+/* line 118, ../sass/index.scss */
 .img-wrapper {
   width: 33.33%;
   height: 300px;
   float: left;
   margin: 14px 0;
 }
-/* line 93, ../sass/index.scss */
+/* line 124, ../sass/index.scss */
 .img-wrapper .image {
   background-color: blue;
   height: 100%;
@@ -99,9 +132,35 @@ body {
   text-align: center;
   box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
 }
-/* line 101, ../sass/index.scss */
+/* line 132, ../sass/index.scss */
 .img-wrapper .image img {
   height: 300px;
   width: 300px;
   object-fit: cover;
+}
+
+/* line 140, ../sass/index.scss */
+footer {
+  background-color: #2b2d36;
+  color: #adb6be;
+  width: 100%;
+  font-size: 15px;
+  clear: both;
+}
+/* line 147, ../sass/index.scss */
+footer .content {
+  max-width: 984px;
+  margin: 0 auto;
+  padding: 10px 0;
+}
+/* line 152, ../sass/index.scss */
+footer .content .col-footer {
+  width: 33%;
+  display: inline-block;
+}
+/* line 156, ../sass/index.scss */
+footer .content .col-footer ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
