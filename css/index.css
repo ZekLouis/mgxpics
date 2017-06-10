@@ -1,4 +1,107 @@
-/* line 1, ../sass/index.scss */
+@font-face {
+  font-family: Roboto-100;
+  src: url(../fonts/roboto/Roboto-Thin.ttf);
+}
+@font-face {
+  font-family: Roboto-300;
+  src: url(../fonts/roboto/Roboto-Light.ttf);
+}
+@font-face {
+  font-family: Roboto-500;
+  src: url(../fonts/roboto/Roboto-Regular.ttf);
+}
+@font-face {
+  font-family: Roboto-700;
+  src: url(../fonts/roboto/Roboto-Medium.ttf);
+}
+@font-face {
+  font-family: Roboto-900;
+  src: url(../fonts/roboto/Roboto-Bold.ttf);
+}
+@font-face {
+  font-family: Roboto-1100;
+  src: url(../fonts/roboto/Roboto-Black.ttf);
+}
+/* line 30, ../sass/index.scss */
 body {
+  font-family: Roboto-500;
+  margin: 0;
+  padding: 0;
+}
+
+/* line 37, ../sass/index.scss */
+.header-wrap {
+  background-color: #333;
+  height: 100%;
+}
+
+/* line 41, ../sass/index.scss */
+.header {
+  color: white;
+  height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/* line 48, ../sass/index.scss */
+.header .image {
+  height: 100%;
+  background: #333 url(../images/header2.jpg) center 0 no-repeat fixed;
+  background-size: cover;
+  opacity: 0.30;
+}
+/* line 55, ../sass/index.scss */
+.header .content {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  opacity: 1;
+}
+/* line 63, ../sass/index.scss */
+.header .content h1 {
+  text-transform: uppercase;
+  font-size: 45px;
+  margin: 15px;
+}
+/* line 69, ../sass/index.scss */
+.header .content .divider {
+  height: 1px;
+  background-color: white;
+  width: 40%;
+  min-width: 500px;
+}
+/* line 76, ../sass/index.scss */
+.header .content h2 {
+  font-family: Roboto-100;
+}
+
+/* line 82, ../sass/index.scss */
+.global {
+  max-width: 984px;
+  margin: 50px auto;
+}
+
+/* line 87, ../sass/index.scss */
+.img-wrapper {
+  width: 33.33%;
+  height: 300px;
+  float: left;
+  margin: 14px 0;
+}
+/* line 93, ../sass/index.scss */
+.img-wrapper .image {
   background-color: blue;
+  height: 100%;
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+/* line 101, ../sass/index.scss */
+.img-wrapper .image img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
 }
