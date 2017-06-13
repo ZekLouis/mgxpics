@@ -2,6 +2,7 @@
     <head>
         <title>mgxpics</title>
         <meta charset="utf-8">
+        <link rel="icon" type="image/png" href="images/mgxpics.png" />
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
         <link rel="stylesheet" href="css/animate.css">
