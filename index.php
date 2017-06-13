@@ -153,7 +153,7 @@
                 <div class="mathilde">
                     <img src="images/mathilde.jpg" alt="">
                     <p class="name">Mathilde</p>
-                    <p>Mathilde 🌞 G💘</p>
+                    <p>My name is Mathilde, I'm 16, I study in highschool, I am a frenchgirl, I live in Chateauroux , I have practiced dance since 2013, I like photography and I take photo with my IPhone 5s or Nikon P610 and for edit my pictures I use Photoshop</p>
                 </div>
             </div>
 
@@ -161,7 +161,7 @@
                 <div class="gabriel">
                     <img src="images/gabriel.jpg" alt="">
                     <p class="name">Gabriel</p>
-                    <p>Gab💥🌊 16 yo | chtx📍| jean gi📚 | basketball🏀 | M.</p>
+                    <p>My name is Gabriel, I am 16. I am French, I live in Châteauroux. I like BasketBall and I have played it since 2009. I am a student in a High school. I adore photography. I usually take photos with my phone but I bought a camera, a Nikon D5300. I study ICT.</p>
                 </div>
             </div>
 
