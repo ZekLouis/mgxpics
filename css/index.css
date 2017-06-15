@@ -26,7 +26,11 @@
   font-family: Dancing;
   src: url(../fonts/dancing.ttf);
 }
-/* line 37, ../sass/index.scss */
+@font-face {
+  font-family: Saturday;
+  src: url(../fonts/saturday.ttf);
+}
+/* line 42, ../sass/index.scss */
 body {
   font-family: Roboto-500;
   margin: 0;
@@ -34,13 +38,13 @@ body {
   background: #6a6b68;
 }
 
-/* line 45, ../sass/index.scss */
+/* line 50, ../sass/index.scss */
 .header-wrap {
   background-color: #333;
   height: 100%;
 }
 
-/* line 49, ../sass/index.scss */
+/* line 54, ../sass/index.scss */
 .header {
   color: white;
   height: 100%;
@@ -48,14 +52,14 @@ body {
   background-repeat: no-repeat;
   background-position: center;
 }
-/* line 56, ../sass/index.scss */
+/* line 61, ../sass/index.scss */
 .header .image {
   height: 100%;
   background: #333 url(../images/header.jpg) center 0 no-repeat fixed;
   background-size: cover;
   opacity: 0.30;
 }
-/* line 63, ../sass/index.scss */
+/* line 68, ../sass/index.scss */
 .header .content {
   text-align: center;
   position: absolute;
@@ -64,26 +68,26 @@ body {
   transform: translate(-50%, -50%);
   opacity: 1;
 }
-/* line 71, ../sass/index.scss */
+/* line 76, ../sass/index.scss */
 .header .content h1 {
   font-size: 80px;
   letter-spacing: 2px;
   margin: 15px;
   font-family: Dancing;
 }
-/* line 78, ../sass/index.scss */
+/* line 83, ../sass/index.scss */
 .header .content .divider {
   height: 1px;
   background-color: white;
   width: 40%;
-  min-width: 500px;
+  min-width: 300px;
 }
-/* line 85, ../sass/index.scss */
+/* line 90, ../sass/index.scss */
 .header .content h2 {
   font-family: Roboto-100;
 }
 
-/* line 91, ../sass/index.scss */
+/* line 96, ../sass/index.scss */
 #navbar {
   width: 100%;
   background-color: #2b2d36;
@@ -93,71 +97,80 @@ body {
   z-index: 2;
   color: white;
 }
-/* line 100, ../sass/index.scss */
+/* line 105, ../sass/index.scss */
 #navbar .left {
   float: left;
 }
-/* line 103, ../sass/index.scss */
+/* line 108, ../sass/index.scss */
 #navbar .left img {
   height: 50px;
 }
-/* line 108, ../sass/index.scss */
+/* line 113, ../sass/index.scss */
 #navbar .right {
   float: right;
   color: white !important;
 }
-/* line 111, ../sass/index.scss */
+/* line 116, ../sass/index.scss */
 #navbar .right i.fa {
   color: white;
 }
-/* line 116, ../sass/index.scss */
+/* line 121, ../sass/index.scss */
 #navbar span {
   margin: 0 15px;
 }
-/* line 118, ../sass/index.scss */
+/* line 123, ../sass/index.scss */
 #navbar span a {
   margin: 0 5px;
 }
-/* line 123, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 #navbar a {
   color: black;
   text-decoration: none;
 }
-/* line 128, ../sass/index.scss */
+/* line 133, ../sass/index.scss */
 #navbar.fixed {
   position: fixed;
   top: 0;
 }
 
-/* line 134, ../sass/index.scss */
+/* line 139, ../sass/index.scss */
 .global {
   max-width: 984px;
   margin: 70px auto;
 }
 
-/* line 139, ../sass/index.scss */
+/* line 144, ../sass/index.scss */
+h3.we-title {
+  background-color: #2b2d36;
+  color: white;
+  font-family: Saturday;
+  text-align: center;
+  font-size: 60px;
+  padding: 20px 0;
+  margin: 0;
+  margin-top: 14px;
+  letter-spacing: 1px;
+  float: left;
+  width: 100%;
+  font-weight: 100;
+}
+
+/* line 159, ../sass/index.scss */
 .we {
   background: #333 url(../images/header2.jpg) center 0 no-repeat fixed;
   background-size: cover;
   width: 100%;
   clear: both;
   padding: 50px 0;
-  margin-top: 20px;
   color: white;
   float: left;
 }
-/* line 149, ../sass/index.scss */
-.we h3 {
-  text-align: center;
-  font-size: 30px;
-  margin-top: 0;
-}
-/* line 155, ../sass/index.scss */
+/* line 168, ../sass/index.scss */
 .we .desc-wrapper {
   width: 50%;
   float: left;
 }
-/* line 160, ../sass/index.scss */
+/* line 173, ../sass/index.scss */
 .we .gabriel, .we .mathilde {
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
@@ -166,25 +179,25 @@ body {
   border-radius: 5px;
   font-family: Roboto-100;
 }
-/* line 168, ../sass/index.scss */
+/* line 181, ../sass/index.scss */
 .we .gabriel img, .we .mathilde img {
   width: 100px;
   height: 100px;
   border-radius: 50px;
 }
-/* line 174, ../sass/index.scss */
+/* line 187, ../sass/index.scss */
 .we .gabriel p, .we .mathilde p {
   margin: 25px;
 }
 
-/* line 180, ../sass/index.scss */
+/* line 193, ../sass/index.scss */
 .img-wrapper {
   width: 33.33%;
   height: 300px;
   float: left;
   margin: 14px 0;
 }
-/* line 186, ../sass/index.scss */
+/* line 199, ../sass/index.scss */
 .img-wrapper .image {
   height: 100%;
   max-width: 300px;
@@ -194,15 +207,15 @@ body {
   position: relative;
   transition: transform 0.3s ease, display 0.3s ease;
 }
-/* line 195, ../sass/index.scss */
+/* line 208, ../sass/index.scss */
 .img-wrapper .image:hover {
   transform: scale(1.05);
 }
-/* line 199, ../sass/index.scss */
+/* line 212, ../sass/index.scss */
 .img-wrapper .image:hover span {
   display: block;
 }
-/* line 203, ../sass/index.scss */
+/* line 216, ../sass/index.scss */
 .img-wrapper .image span {
   z-index: 1;
   display: none;
@@ -216,7 +229,7 @@ body {
   font-family: Roboto-100;
   letter-spacing: 2px;
 }
-/* line 216, ../sass/index.scss */
+/* line 229, ../sass/index.scss */
 .img-wrapper .image span p {
   vertical-align: middle;
   position: absolute;
@@ -225,14 +238,14 @@ body {
   margin: 0;
   transform: translate(-50%, -50%);
 }
-/* line 226, ../sass/index.scss */
+/* line 239, ../sass/index.scss */
 .img-wrapper .image img {
   height: 300px;
   width: 300px;
   object-fit: cover;
 }
 
-/* line 234, ../sass/index.scss */
+/* line 247, ../sass/index.scss */
 footer {
   background-color: #2b2d36;
   color: #adb6be;
@@ -240,26 +253,83 @@ footer {
   font-size: 15px;
   clear: both;
 }
-/* line 241, ../sass/index.scss */
+/* line 254, ../sass/index.scss */
 footer .content {
   max-width: 984px;
   margin: 0 auto;
   padding: 20px 0;
 }
-/* line 246, ../sass/index.scss */
+/* line 259, ../sass/index.scss */
 footer .content .col-footer {
   width: 33%;
   display: inline-block;
   vertical-align: top;
 }
-/* line 251, ../sass/index.scss */
+/* line 264, ../sass/index.scss */
 footer .content .col-footer h3 {
   margin: 10px 0;
 }
-/* line 255, ../sass/index.scss */
+/* line 268, ../sass/index.scss */
 footer .content .col-footer ul {
   font-family: Roboto-100;
   margin: 0;
   padding: 0;
   list-style-type: none;
+}
+
+@media screen and (max-width: 720px) {
+  /* line 281, ../sass/index.scss */
+  .header .image {
+    background: #333 url(../images/header.jpg) center 0 no-repeat;
+    background-size: cover;
+    height: 100%;
+  }
+  /* line 288, ../sass/index.scss */
+  .header .content h1 {
+    font-size: 120px;
+  }
+
+  /* line 294, ../sass/index.scss */
+  #navbar {
+    padding: 20px 0;
+    font-size: 25px;
+  }
+
+  /* line 299, ../sass/index.scss */
+  .img-wrapper {
+    width: 100%;
+    height: auto;
+  }
+  /* line 303, ../sass/index.scss */
+  .img-wrapper .image {
+    height: auto;
+    width: 100%;
+    max-width: inherit;
+    margin: inherit;
+  }
+  /* line 309, ../sass/index.scss */
+  .img-wrapper .image img {
+    height: inherit;
+    width: 100%;
+  }
+
+  /* line 316, ../sass/index.scss */
+  .we {
+    background: #333 url(../images/header2.jpg) center 0 no-repeat;
+    background-size: cover;
+  }
+  /* line 319, ../sass/index.scss */
+  .we .desc-wrapper {
+    width: 100%;
+  }
+  /* line 323, ../sass/index.scss */
+  .we .gabriel, .we .mathilde {
+    margin: 20px 40px;
+  }
+
+  /* line 328, ../sass/index.scss */
+  footer .content .col-footer {
+    width: 50%;
+    margin-left: 30px;
+  }
 }

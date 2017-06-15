@@ -2,6 +2,7 @@
     <head>
         <title>mgxpics</title>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="icon" type="image/png" href="images/mgxpics.png" />
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
@@ -140,14 +141,11 @@
                     <img src="images/header2.jpg" alt="">
                 </div>
             </div>
-
-
-
-
         </div>
 
+        <h3 class="we-title">who are we</h3>
+
         <section class="we">
-            <h3>Who are we ?</h3>
 
             <div class="desc-wrapper">
                 <div class="mathilde">
@@ -202,8 +200,10 @@
             });
 
             $(document).ready(function() {
-                $(".we").parallax("50%", 0.1);
-                $(".header .image").parallax("50%", 0.1);
+                if(window.innerWidth>720){
+                    $(".we").parallax("50%", 0.1);
+                    $(".header .image").parallax("50%", 0.1);
+                }
                 
                 var height = window.innerHeight;
                 $(window).scroll(function () {
