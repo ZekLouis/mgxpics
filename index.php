@@ -170,16 +170,16 @@
                 <div class="col-footer">
                     <h3>instagram</h3>
                     <ul>
-                        <li>@mgxpics</li>
-                        <li>@gaby_2k</li>
-                        <li>@mathilde_pclt</li>
+                        <li><a href="https://instagram.com/mgxpics">@mgxpics</a></li>
+                        <li><a href="https://instagram.com/gaby_2k">@gaby_2k</a></li>
+                        <li><a href="https://instagram.com/mathildec_pclt">@mathildec_pclt</a></li>
                     </ul>
                 </div>
 
                 <div class="col-footer">
                     <h3>facebook</h3>
                     <ul>
-                        <li>MGXpics</li>
+                        <li><a href="https://facebook.com/mgxpics">MGXpics</a></li>
                     </ul>
                 </div>
 
