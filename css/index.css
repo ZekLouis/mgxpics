@@ -55,7 +55,7 @@ body {
 /* line 61, ../sass/index.scss */
 .header .image {
   height: 100%;
-  background: #333 url(../images/header.jpg) center 0 no-repeat fixed;
+  background: #333 url(../images/header3.jpg) center 0 no-repeat fixed;
   background-size: cover;
   opacity: 0.30;
 }
@@ -113,33 +113,38 @@ body {
 /* line 116, ../sass/index.scss */
 #navbar .right i.fa {
   color: white;
+  transition: transform 0.3s ease;
 }
-/* line 121, ../sass/index.scss */
+/* line 119, ../sass/index.scss */
+#navbar .right i.fa:hover {
+  transform: scale(1.2);
+}
+/* line 125, ../sass/index.scss */
 #navbar span {
   margin: 0 15px;
 }
-/* line 123, ../sass/index.scss */
+/* line 127, ../sass/index.scss */
 #navbar span a {
   margin: 0 5px;
 }
-/* line 128, ../sass/index.scss */
+/* line 132, ../sass/index.scss */
 #navbar a {
   color: black;
   text-decoration: none;
 }
-/* line 133, ../sass/index.scss */
+/* line 137, ../sass/index.scss */
 #navbar.fixed {
   position: fixed;
   top: 0;
 }
 
-/* line 139, ../sass/index.scss */
+/* line 143, ../sass/index.scss */
 .global {
   max-width: 984px;
   margin: 70px auto;
 }
 
-/* line 144, ../sass/index.scss */
+/* line 148, ../sass/index.scss */
 h3.we-title {
   background-color: #2b2d36;
   color: white;
@@ -155,22 +160,22 @@ h3.we-title {
   font-weight: 100;
 }
 
-/* line 159, ../sass/index.scss */
+/* line 163, ../sass/index.scss */
 .we {
-  background: #333 url(../images/header2.jpg) center 0 no-repeat fixed;
+  background: #333 url(../images/header4.jpg) center 0 no-repeat fixed;
   background-size: cover;
   width: 100%;
   clear: both;
-  padding: 50px 0;
+  padding: 150px 0;
   color: white;
   float: left;
 }
-/* line 168, ../sass/index.scss */
+/* line 172, ../sass/index.scss */
 .we .desc-wrapper {
   width: 50%;
   float: left;
 }
-/* line 173, ../sass/index.scss */
+/* line 177, ../sass/index.scss */
 .we .gabriel, .we .mathilde {
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
@@ -179,25 +184,25 @@ h3.we-title {
   border-radius: 5px;
   font-family: Roboto-100;
 }
-/* line 181, ../sass/index.scss */
+/* line 185, ../sass/index.scss */
 .we .gabriel img, .we .mathilde img {
   width: 100px;
   height: 100px;
   border-radius: 50px;
 }
-/* line 187, ../sass/index.scss */
+/* line 191, ../sass/index.scss */
 .we .gabriel p, .we .mathilde p {
   margin: 25px;
 }
 
-/* line 193, ../sass/index.scss */
+/* line 197, ../sass/index.scss */
 .img-wrapper {
   width: 33.33%;
   height: 300px;
   float: left;
   margin: 14px 0;
 }
-/* line 199, ../sass/index.scss */
+/* line 203, ../sass/index.scss */
 .img-wrapper .image {
   height: 100%;
   max-width: 300px;
@@ -207,15 +212,15 @@ h3.we-title {
   position: relative;
   transition: transform 0.3s ease, display 0.3s ease;
 }
-/* line 208, ../sass/index.scss */
+/* line 212, ../sass/index.scss */
 .img-wrapper .image:hover {
   transform: scale(1.05);
 }
-/* line 212, ../sass/index.scss */
+/* line 216, ../sass/index.scss */
 .img-wrapper .image:hover span {
   display: block;
 }
-/* line 216, ../sass/index.scss */
+/* line 220, ../sass/index.scss */
 .img-wrapper .image span {
   z-index: 1;
   display: none;
@@ -229,7 +234,7 @@ h3.we-title {
   font-family: Roboto-100;
   letter-spacing: 2px;
 }
-/* line 229, ../sass/index.scss */
+/* line 233, ../sass/index.scss */
 .img-wrapper .image span p {
   vertical-align: middle;
   position: absolute;
@@ -238,96 +243,106 @@ h3.we-title {
   margin: 0;
   transform: translate(-50%, -50%);
 }
-/* line 239, ../sass/index.scss */
+/* line 243, ../sass/index.scss */
 .img-wrapper .image img {
   height: 300px;
   width: 300px;
   object-fit: cover;
 }
 
-/* line 247, ../sass/index.scss */
+/* line 251, ../sass/index.scss */
 footer {
   background-color: #2b2d36;
   color: #adb6be;
   width: 100%;
   font-size: 15px;
   clear: both;
+  padding-bottom: 80px;
+  padding-top: 80px;
 }
-/* line 254, ../sass/index.scss */
+/* line 260, ../sass/index.scss */
 footer .content {
   max-width: 984px;
   margin: 0 auto;
   padding: 20px 0;
 }
-/* line 259, ../sass/index.scss */
+/* line 265, ../sass/index.scss */
 footer .content .col-footer {
   width: 33%;
   display: inline-block;
   vertical-align: top;
 }
-/* line 264, ../sass/index.scss */
+/* line 270, ../sass/index.scss */
 footer .content .col-footer h3 {
   margin: 10px 0;
+  margin-bottom: 30px;
+  font-family: Saturday;
+  font-size: 30px;
+  letter-spacing: 1px;
 }
-/* line 268, ../sass/index.scss */
+/* line 278, ../sass/index.scss */
 footer .content .col-footer ul {
   font-family: Roboto-100;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
+/* line 283, ../sass/index.scss */
+footer .content .col-footer ul li {
+  margin-bottom: 15px;
+}
 
-@media screen and (max-width: 720px) {
-  /* line 281, ../sass/index.scss */
+@media screen and (max-width: 1030px) {
+  /* line 294, ../sass/index.scss */
   .header .image {
-    background: #333 url(../images/header.jpg) center 0 no-repeat;
+    background: #333 url(../images/header3.jpg) center 0 no-repeat;
     background-size: cover;
     height: 100%;
   }
-  /* line 288, ../sass/index.scss */
+  /* line 301, ../sass/index.scss */
   .header .content h1 {
     font-size: 120px;
   }
 
-  /* line 294, ../sass/index.scss */
+  /* line 307, ../sass/index.scss */
   #navbar {
     padding: 20px 0;
     font-size: 25px;
   }
 
-  /* line 299, ../sass/index.scss */
+  /* line 312, ../sass/index.scss */
   .img-wrapper {
     width: 100%;
     height: auto;
   }
-  /* line 303, ../sass/index.scss */
+  /* line 316, ../sass/index.scss */
   .img-wrapper .image {
     height: auto;
     width: 100%;
     max-width: inherit;
     margin: inherit;
   }
-  /* line 309, ../sass/index.scss */
+  /* line 322, ../sass/index.scss */
   .img-wrapper .image img {
     height: inherit;
     width: 100%;
   }
 
-  /* line 316, ../sass/index.scss */
+  /* line 329, ../sass/index.scss */
   .we {
-    background: #333 url(../images/header2.jpg) center 0 no-repeat;
+    background: #333 url(../images/header4.jpg) center 0 no-repeat;
     background-size: cover;
   }
-  /* line 319, ../sass/index.scss */
+  /* line 332, ../sass/index.scss */
   .we .desc-wrapper {
     width: 100%;
   }
-  /* line 323, ../sass/index.scss */
+  /* line 336, ../sass/index.scss */
   .we .gabriel, .we .mathilde {
     margin: 20px 40px;
   }
 
-  /* line 328, ../sass/index.scss */
+  /* line 341, ../sass/index.scss */
   footer .content .col-footer {
     width: 50%;
     margin-left: 30px;

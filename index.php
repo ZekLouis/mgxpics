@@ -151,7 +151,7 @@
                 <div class="mathilde">
                     <img src="images/mathilde.jpg" alt="">
                     <p class="name">Mathilde</p>
-                    <p>My name is Mathilde, I'm 16, I study in highschool, I am a frenchgirl, I live in Chateauroux , I have practiced dance since 2013, I like photography and I take photo with my IPhone 5s or Nikon P610 and for edit my pictures I use Photoshop</p>
+                    <p>My name is Mathilde, I'm 16, I study in a High school, I am a French girl, I live in Châteauroux , I have practised dancing since 2013, I like photography and I take photos with my IPhone 5s or Nikon P610 and to edit my pictures I use Photoshop.</p>
                 </div>
             </div>
 
@@ -168,7 +168,7 @@
         <footer>
             <div class="content">
                 <div class="col-footer">
-                    <h3>Instagram</h3>
+                    <h3>instagram</h3>
                     <ul>
                         <li>@mgxpics</li>
                         <li>@gaby_2k</li>
@@ -177,14 +177,14 @@
                 </div>
 
                 <div class="col-footer">
-                    <h3>Facebook</h3>
+                    <h3>facebook</h3>
                     <ul>
                         <li>MGXpics</li>
                     </ul>
                 </div>
 
                 <div class="col-footer">
-                    <h3>Copyrights</h3>
+                    <h3>copyrights</h3>
                     <ul>
                         <li>Made in France</li>
                         <li>2017 © All rights reserved</li>
@@ -200,13 +200,14 @@
             });
 
             $(document).ready(function() {
-                if(window.innerWidth>720){
+                if(window.innerWidth>1030){
                     $(".we").parallax("50%", 0.1);
                     $(".header .image").parallax("50%", 0.1);
                 }
                 
                 var height = window.innerHeight;
                 $(window).scroll(function () {
+                    height = window.innerHeight;
                     if ($(window).scrollTop() > height) {
                         $('#navbar').addClass('fixed');
                     }
