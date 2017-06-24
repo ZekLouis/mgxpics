@@ -4,12 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="db46ccfc-6319-4699-a053-9d074f82ab44" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.sass-cache/9e73addcb8aefe3578400541212d9cb5abd7d1fc/index.scssc" afterPath="$PROJECT_DIR$/.sass-cache/9e73addcb8aefe3578400541212d9cb5abd7d1fc/index.scssc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/index.css" afterPath="$PROJECT_DIR$/css/index.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.php" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sass/index.scss" afterPath="$PROJECT_DIR$/sass/index.scss" />
-    </list>
+    <list default="true" id="db46ccfc-6319-4699-a053-9d074f82ab44" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -292,12 +287,12 @@
       <workItem from="1497385175084" duration="438000" />
       <workItem from="1497385915281" duration="5218000" />
       <workItem from="1497819796947" duration="7000" />
-      <workItem from="1498039862862" duration="1768000" />
+      <workItem from="1498039862862" duration="1863000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="23298000" />
+    <option name="totallyTimeSpent" value="23393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />

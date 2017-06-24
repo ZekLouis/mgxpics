@@ -1,3 +1,6 @@
+<?php
+  session_start();
+?>
 <html>
     <head>
         <title>mgxpics</title>
@@ -190,6 +193,19 @@
                         <li>2017 © All rights reserved</li>
                     </ul>
                 </div>
+
+                <div class="visits">
+                  <?php
+                    $json = json_decode(file_get_contents("stats.json"));
+                    if(!isset($_SESSION['visit']) && $_SESSION['visit']!==true){
+                      $json->{"visits"}++;
+                      file_put_contents("stats.json",json_encode($json));
+                    }
+                    $_SESSION['visit']=true;
+                    echo '<strong>'.$json->{"visits"}.'</strong> visits.';
+                  ?>
+
+                </div>
             </div>
         </footer>
 
@@ -204,7 +220,7 @@
                     $(".we").parallax("50%", 0.1);
                     $(".header .image").parallax("50%", 0.1);
                 }
-                
+
                 var height = window.innerHeight;
                 $(window).scroll(function () {
                     height = window.innerHeight;
