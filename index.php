@@ -9,12 +9,10 @@
         <link rel="icon" type="image/png" href="images/mgxpics.png" />
         <link rel="stylesheet" href="css/index.css">
         <link rel="stylesheet" href="css/font-awesome.min.css">
-        <link rel="stylesheet" href="css/animate.css">
         <script src="js/jquery-3.2.1.min.js"></script>
         <script src="js/jquery.parallax-1.1.3.js"></script>
         <script src="js/jquery.localscroll-1.2.7-min.js"></script>
         <script src="js/jquery.scrollTo-1.4.2-min.js"></script>
-        <script src="js/viewportchecker.js"></script>
 
     </head>
 
@@ -42,106 +40,108 @@
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>beetle</p>
+                        <p>bee</p>
                     </span>
-                    <img src="images/img.jpg" alt="">
+                    <img src="content/images/bee.jpg" alt="">
                 </div>
             </div>
 
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>flower</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/flower1.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>flower</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/flower2.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>insect</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/insecte.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>forest</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/forest.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>squirrel</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/squirrel.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>station</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/station1.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>station</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/station2.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>station</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/station3.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>sun</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/sun.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>sunset</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/sunset1.jpg" alt="">
                 </div>
             </div>
+
             <div class="img-wrapper" data-av-animation="fadeIn">
                 <div class="image">
                     <span>
-                        <p>rails</p>
+                        <p>sunset</p>
                     </span>
-                    <img src="images/header2.jpg" alt="">
-                </div>
-            </div>
-            <div class="img-wrapper" data-av-animation="fadeIn">
-                <div class="image">
-                    <span>
-                        <p>rails</p>
-                    </span>
-                    <img src="images/header2.jpg" alt="">
+                    <img src="content/images/sunset2.jpg" alt="">
                 </div>
             </div>
         </div>
@@ -202,7 +202,7 @@
                       file_put_contents("stats.json",json_encode($json));
                     }
                     $_SESSION['visit']=true;
-                    echo '<strong>'.$json->{"visits"}.'</strong> visits.';
+                    echo $json->{"visits"}.' visits';
                   ?>
 
                 </div>
@@ -210,10 +210,6 @@
         </footer>
 
         <script>
-            jQuery('.img-wrapper').addClass("hidden").viewportChecker({
-                classToAdd: 'visible animated fadeIn', // Class to add to the elements when they are visible
-                offset: 100
-            });
 
             $(document).ready(function() {
                 if(window.innerWidth>1030){
@@ -223,7 +219,6 @@
 
                 var height = window.innerHeight;
                 $(window).scroll(function () {
-                    height = window.innerHeight;
                     if ($(window).scrollTop() > height) {
                         $('#navbar').addClass('fixed');
                     }

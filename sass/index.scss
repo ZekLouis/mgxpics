@@ -43,7 +43,7 @@ body {
   font-family: Roboto-500;
   margin: 0;
   padding: 0;
-  background: rgba(106, 107, 104, 1);
+  background-color: #adb6be;
 }
 
 
@@ -60,7 +60,7 @@ body {
 
   .image{
     height: 100%;
-    background: #333 url(../images/header3.jpg) center 0 no-repeat fixed;
+    background: #333 url(../images/header5-min.jpg) center 0 no-repeat fixed;
     background-size:cover;
     opacity: 0.30;
   }
@@ -80,6 +80,7 @@ body {
       letter-spacing: 2px;
       margin: 15px;
       font-family: Dancing;
+      font-weight: 100;
     }
 
     .divider{
@@ -298,6 +299,7 @@ footer{
     .visits{
       width: 100%;
       text-align: center;
+      font-family: Roboto-100;
     }
   }
 }
@@ -336,6 +338,10 @@ footer{
       width: 100%;
       max-width: inherit;
       margin: inherit;
+
+      &:hover{
+        transform: none;
+      }
 
       img{
         height: inherit;

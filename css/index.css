@@ -35,7 +35,7 @@ body {
   font-family: Roboto-500;
   margin: 0;
   padding: 0;
-  background: #6a6b68;
+  background-color: #adb6be;
 }
 
 /* line 50, ../sass/index.scss */
@@ -55,7 +55,7 @@ body {
 /* line 61, ../sass/index.scss */
 .header .image {
   height: 100%;
-  background: #333 url(../images/header3.jpg) center 0 no-repeat fixed;
+  background: #333 url(../images/header5-min.jpg) center 0 no-repeat fixed;
   background-size: cover;
   opacity: 0.30;
 }
@@ -76,18 +76,19 @@ body {
   letter-spacing: 2px;
   margin: 15px;
   font-family: Dancing;
+  font-weight: 100;
 }
-/* line 85, ../sass/index.scss */
+/* line 86, ../sass/index.scss */
 .header .content .divider {
   height: 1px;
   background-color: white;
 }
-/* line 90, ../sass/index.scss */
+/* line 91, ../sass/index.scss */
 .header .content h2 {
   font-family: Roboto-100;
 }
 
-/* line 96, ../sass/index.scss */
+/* line 97, ../sass/index.scss */
 #navbar {
   width: 100%;
   background-color: #2b2d36;
@@ -97,54 +98,54 @@ body {
   z-index: 2;
   color: white;
 }
-/* line 105, ../sass/index.scss */
+/* line 106, ../sass/index.scss */
 #navbar .left {
   float: left;
 }
-/* line 108, ../sass/index.scss */
+/* line 109, ../sass/index.scss */
 #navbar .left img {
   height: 50px;
 }
-/* line 113, ../sass/index.scss */
+/* line 114, ../sass/index.scss */
 #navbar .right {
   float: right;
   color: white !important;
 }
-/* line 116, ../sass/index.scss */
+/* line 117, ../sass/index.scss */
 #navbar .right i.fa {
   color: white;
   transition: transform 0.3s ease;
 }
-/* line 119, ../sass/index.scss */
+/* line 120, ../sass/index.scss */
 #navbar .right i.fa:hover {
   transform: scale(1.2);
 }
-/* line 125, ../sass/index.scss */
+/* line 126, ../sass/index.scss */
 #navbar span {
   margin: 0 15px;
 }
-/* line 127, ../sass/index.scss */
+/* line 128, ../sass/index.scss */
 #navbar span a {
   margin: 0 5px;
 }
-/* line 132, ../sass/index.scss */
+/* line 133, ../sass/index.scss */
 #navbar a {
   color: black;
   text-decoration: none;
 }
-/* line 137, ../sass/index.scss */
+/* line 138, ../sass/index.scss */
 #navbar.fixed {
   position: fixed;
   top: 0;
 }
 
-/* line 143, ../sass/index.scss */
+/* line 144, ../sass/index.scss */
 .global {
   max-width: 984px;
   margin: 70px auto;
 }
 
-/* line 148, ../sass/index.scss */
+/* line 149, ../sass/index.scss */
 h3.we-title {
   background-color: #2b2d36;
   color: white;
@@ -160,7 +161,7 @@ h3.we-title {
   font-weight: 100;
 }
 
-/* line 163, ../sass/index.scss */
+/* line 164, ../sass/index.scss */
 .we {
   background: #333 url(../images/header4.jpg) center 0 no-repeat fixed;
   background-size: cover;
@@ -170,12 +171,12 @@ h3.we-title {
   color: white;
   float: left;
 }
-/* line 172, ../sass/index.scss */
+/* line 173, ../sass/index.scss */
 .we .desc-wrapper {
   width: 50%;
   float: left;
 }
-/* line 177, ../sass/index.scss */
+/* line 178, ../sass/index.scss */
 .we .gabriel, .we .mathilde {
   text-align: center;
   background: rgba(0, 0, 0, 0.6);
@@ -184,25 +185,25 @@ h3.we-title {
   border-radius: 5px;
   font-family: Roboto-100;
 }
-/* line 185, ../sass/index.scss */
+/* line 186, ../sass/index.scss */
 .we .gabriel img, .we .mathilde img {
   width: 100px;
   height: 100px;
   border-radius: 50px;
 }
-/* line 191, ../sass/index.scss */
+/* line 192, ../sass/index.scss */
 .we .gabriel p, .we .mathilde p {
   margin: 25px;
 }
 
-/* line 197, ../sass/index.scss */
+/* line 198, ../sass/index.scss */
 .img-wrapper {
   width: 33.33%;
   height: 300px;
   float: left;
   margin: 14px 0;
 }
-/* line 203, ../sass/index.scss */
+/* line 204, ../sass/index.scss */
 .img-wrapper .image {
   height: 100%;
   max-width: 300px;
@@ -212,15 +213,15 @@ h3.we-title {
   position: relative;
   transition: transform 0.3s ease, display 0.3s ease;
 }
-/* line 212, ../sass/index.scss */
+/* line 213, ../sass/index.scss */
 .img-wrapper .image:hover {
   transform: scale(1.05);
 }
-/* line 216, ../sass/index.scss */
+/* line 217, ../sass/index.scss */
 .img-wrapper .image:hover span {
   display: block;
 }
-/* line 220, ../sass/index.scss */
+/* line 221, ../sass/index.scss */
 .img-wrapper .image span {
   z-index: 1;
   display: none;
@@ -234,7 +235,7 @@ h3.we-title {
   font-family: Roboto-100;
   letter-spacing: 2px;
 }
-/* line 233, ../sass/index.scss */
+/* line 234, ../sass/index.scss */
 .img-wrapper .image span p {
   vertical-align: middle;
   position: absolute;
@@ -243,14 +244,14 @@ h3.we-title {
   margin: 0;
   transform: translate(-50%, -50%);
 }
-/* line 243, ../sass/index.scss */
+/* line 244, ../sass/index.scss */
 .img-wrapper .image img {
   height: 300px;
   width: 300px;
   object-fit: cover;
 }
 
-/* line 251, ../sass/index.scss */
+/* line 252, ../sass/index.scss */
 footer {
   background-color: #2b2d36;
   color: #adb6be;
@@ -260,19 +261,19 @@ footer {
   padding-bottom: 80px;
   padding-top: 80px;
 }
-/* line 260, ../sass/index.scss */
+/* line 261, ../sass/index.scss */
 footer .content {
   max-width: 984px;
   margin: 0 auto;
   padding: 20px 0;
 }
-/* line 265, ../sass/index.scss */
+/* line 266, ../sass/index.scss */
 footer .content .col-footer {
   width: 33%;
   display: inline-block;
   vertical-align: top;
 }
-/* line 270, ../sass/index.scss */
+/* line 271, ../sass/index.scss */
 footer .content .col-footer h3 {
   margin: 10px 0;
   margin-bottom: 30px;
@@ -280,88 +281,93 @@ footer .content .col-footer h3 {
   font-size: 30px;
   letter-spacing: 1px;
 }
-/* line 278, ../sass/index.scss */
+/* line 279, ../sass/index.scss */
 footer .content .col-footer ul {
   font-family: Roboto-100;
   margin: 0;
   padding: 0;
   list-style-type: none;
 }
-/* line 283, ../sass/index.scss */
+/* line 284, ../sass/index.scss */
 footer .content .col-footer ul li {
   margin-bottom: 15px;
 }
-/* line 284, ../sass/index.scss */
+/* line 285, ../sass/index.scss */
 footer .content .col-footer ul li a {
   color: #adb6be;
   text-decoration: none;
   transition: color 0.3s ease;
 }
-/* line 289, ../sass/index.scss */
+/* line 290, ../sass/index.scss */
 footer .content .col-footer ul li a:hover {
   color: white;
 }
-/* line 298, ../sass/index.scss */
+/* line 299, ../sass/index.scss */
 footer .content .visits {
   width: 100%;
   text-align: center;
+  font-family: Roboto-100;
 }
 
 @media screen and (max-width: 1030px) {
-  /* line 308, ../sass/index.scss */
+  /* line 310, ../sass/index.scss */
   .header .image {
     background: #333 url(../images/header3.jpg) center 0 no-repeat;
     background-size: cover;
     height: 100%;
   }
-  /* line 315, ../sass/index.scss */
+  /* line 317, ../sass/index.scss */
   .header .content h1 {
     font-size: 100px;
   }
-  /* line 319, ../sass/index.scss */
+  /* line 321, ../sass/index.scss */
   .header .content h2 {
     font-size: 25px;
   }
 
-  /* line 325, ../sass/index.scss */
+  /* line 327, ../sass/index.scss */
   #navbar {
     padding: 20px 0;
     font-size: 25px;
   }
 
-  /* line 330, ../sass/index.scss */
+  /* line 332, ../sass/index.scss */
   .img-wrapper {
     width: 100%;
     height: auto;
   }
-  /* line 334, ../sass/index.scss */
+  /* line 336, ../sass/index.scss */
   .img-wrapper .image {
     height: auto;
     width: 100%;
     max-width: inherit;
     margin: inherit;
   }
-  /* line 340, ../sass/index.scss */
+  /* line 342, ../sass/index.scss */
+  .img-wrapper .image:hover {
+    transform: none;
+  }
+  /* line 346, ../sass/index.scss */
   .img-wrapper .image img {
     height: inherit;
     width: 100%;
   }
 
-  /* line 347, ../sass/index.scss */
+  /* line 353, ../sass/index.scss */
   .we {
     background: #333 url(../images/header4.jpg) center 0 no-repeat;
     background-size: cover;
   }
-  /* line 350, ../sass/index.scss */
+  /* line 356, ../sass/index.scss */
   .we .desc-wrapper {
     width: 100%;
   }
-  /* line 354, ../sass/index.scss */
+  /* line 360, ../sass/index.scss */
   .we .gabriel, .we .mathilde {
     margin: 20px 40px;
   }
 
-  /* line 359, ../sass/index.scss */
+  /* line 365, ../sass/index.scss */
   footer .content .col-footer {
     width: 50%;
     margin-left: 30px;
